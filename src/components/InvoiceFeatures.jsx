@@ -87,7 +87,7 @@ export default function InvoiceFeatures() {
 
                 <div style={{ marginTop: '24px', display: 'flex', gap: '12px', justifyContent: 'center', flexWrap: 'wrap' }}>
                     <a href="#" className="btn-primary">Start clipping — free</a>
-                    <a href="#" className="btn-secondary">View all features</a>
+                    <a href="#features" className="btn-secondary" onClick={(e) => { e.preventDefault(); document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' }); }}>View all features</a>
                 </div>
             </div>
         </section>

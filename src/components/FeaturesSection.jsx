@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function FeaturesSection() {
     return (
-        <section className="features-section">
+        <section className="features-section" id="features">
             <div className="features-content">
                 <div className="section-header">
                     <div className="section-badge">🤖 AI-Powered</div>
@@ -14,7 +14,7 @@ export default function FeaturesSection() {
                     </p>
                     <div style={{ marginTop: '32px', display: 'flex', gap: '12px', justifyContent: 'center', flexWrap: 'wrap' }}>
                         <a href="#" className="btn-primary">Try it now — free</a>
-                        <a href="#" className="btn-secondary">See examples</a>
+                        <a href="#examples" className="btn-secondary" onClick={(e) => { e.preventDefault(); document.getElementById('examples')?.scrollIntoView({ behavior: 'smooth' }); }}>See examples</a>
                     </div>
                 </div>
 
@@ -32,7 +32,7 @@ export default function FeaturesSection() {
                             </div>
                             <div className="mockup-nav">
                                 <span className="back">‹</span>
-                                <span className="title">ClipFlow</span>
+                                <span className="title">ViralZap</span>
                                 <span style={{ color: '#2563eb', fontSize: '14px', fontWeight: 600 }}>⚙️</span>
                             </div>
 

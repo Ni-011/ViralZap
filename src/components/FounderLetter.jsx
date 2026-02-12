@@ -29,7 +29,7 @@ export default function FounderLetter() {
                 <div className="founder-letter">
                     <span className="greeting">Dear creator,</span>
                     <span className="body">
-                        We built ClipFlow because we lived the pain. We'd spend 4 hours recording a podcast, then another 6 hours cutting it into clips for TikTok and Reels. By the time we were done editing, we were too exhausted to actually create.
+                        We built ViralZap because we lived the pain. We'd spend 4 hours recording a podcast, then another 6 hours cutting it into clips for TikTok and Reels. By the time we were done editing, we were too exhausted to actually create.
                         <br /><br />
                         We tried every tool out there. Some were clunky. Some gave us garbage clips. None of them understood what made a moment actually worth sharing.
                         <br /><br />
@@ -39,7 +39,7 @@ export default function FounderLetter() {
                     </span>
                     <span className="signoff">Keep creating. ✌️</span>
                     <div style={{ marginTop: '16px' }}>
-                        <span className="name">The ClipFlow Team</span>
+                        <span className="name">The ViralZap Team</span>
                         <br />
                         <span className="title-role">Creators building for creators</span>
                     </div>

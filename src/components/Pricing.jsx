@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Pricing() {
     return (
-        <section className="pricing-section">
+        <section className="pricing-section" id="pricing">
             <div className="pricing-content">
                 <div style={{ textAlign: 'center' }}>
                     <div className="section-badge">💰 Pricing</div>
@@ -21,7 +21,7 @@ export default function Pricing() {
                             </div>
                         </div>
                         <p style={{ fontSize: '14px', color: '#666', lineHeight: '1.6' }}>
-                            Perfect for trying ClipFlow on your first few videos.
+                            Perfect for trying ViralZap on your first few videos.
                         </p>
                         <a href="#" className="btn-secondary pricing-cta" style={{ justifyContent: 'center', width: '100%' }}>Start free</a>
                         <div className="pricing-divider"></div>
@@ -34,7 +34,7 @@ export default function Pricing() {
                                     'AI clip detection',
                                     'Auto-captions (English)',
                                     '720p exports',
-                                    'ClipFlow watermark',
+                                    'ViralZap watermark',
                                 ].map((f, i) => (
                                     <div className="pricing-feature-item" key={i}>
                                         <span className="check">✓</span>

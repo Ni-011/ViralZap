@@ -21,9 +21,9 @@ export default function Footer() {
 
             <footer className="footer">
                 <div className="footer-links">
-                    <a href="#">Features</a>
-                    <a href="#">Pricing</a>
-                    <a href="#">Examples</a>
+                    <a href="#features" onClick={(e) => { e.preventDefault(); document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' }); }}>Features</a>
+                    <a href="#pricing" onClick={(e) => { e.preventDefault(); document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' }); }}>Pricing</a>
+                    <a href="#examples" onClick={(e) => { e.preventDefault(); document.getElementById('examples')?.scrollIntoView({ behavior: 'smooth' }); }}>Examples</a>
                     <a href="#">Blog</a>
                     <a href="#">Help Center</a>
                     <a href="#">API Docs</a>
@@ -32,7 +32,7 @@ export default function Footer() {
                     <a href="#">Careers</a>
                 </div>
                 <div className="footer-bottom">
-                    Made with <span className="heart">♥</span> for creators everywhere &nbsp;·&nbsp; © 2025 ClipFlow Inc.
+                    Made with <span className="heart">♥</span> for creators everywhere &nbsp;·&nbsp; © 2025 ViralZap Inc.
                 </div>
             </footer>
         </>

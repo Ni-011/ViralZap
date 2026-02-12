@@ -28,14 +28,14 @@ const creators2 = [
 
 export default function CountryMarquee() {
     return (
-        <section className="country-marquee">
+        <section className="country-marquee" id="examples">
             <div className="country-marquee-header">
                 <div className="section-badge">🌍 For everyone</div>
                 <h2 className="country-marquee-title">
                     Podcasts, webinars, tutorials, vlogs — we clip it all, beautifully.
                 </h2>
                 <p className="section-subtitle" style={{ marginTop: '16px' }}>
-                    12,000+ creators across every niche use ClipFlow to scale their content.
+                    12,000+ creators across every niche use ViralZap to scale their content.
                 </p>
             </div>
 
